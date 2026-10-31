@@ -230,12 +230,3 @@ section[id] { scroll-margin-top: var(--header-h); }
   color: var(--muted);
 }
 
-/* Oculta la insignia de Netlify en dispositivos móviles y escritorio */
-#netlify-badge,
-[data-netlify-badge],
-.netlify-badge {
-  display: none !important;
-  opacity: 0 !important;
-  visibility: hidden !important;
-  pointer-events: none !important;
-}
