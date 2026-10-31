@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Templo Bautista Atenas | 25 años proclamando la gracia de Dios</title>
+  <meta name="description" content="Templo Bautista Atenas, Costa Rica. Una iglesia llevando el mundo al conocimiento de Dios. Conozca nuestros servicios y venga a visitarnos.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== HEADER / NAVBAR ========== -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="brand" aria-label="Templo Bautista Atenas, inicio">
+        <img src="assets/TBA Logo.jpg" alt="" width="44" height="44">
+        <span>Templo Bautista <strong>Atenas</strong></span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="menu" class="nav" aria-label="Principal">
+        <ul class="nav__list">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#nosotros">Sobre nosotros</a></li>
+        </ul>
+        <a href="#contacto" class="btn btn--primary btn--sm">Contáctenos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ========== HERO ========== -->
+    <section id="inicio" class="hero">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <p class="eyebrow">25 años · 2001 – 2026</p>
+          <h1>Proclamando la <span>gracia de Dios</span> en Atenas</h1>
+          <p class="hero__lead">Somos una iglesia llevando el mundo al conocimiento de Dios. Lo invitamos a ser parte de nuestra familia en la fe.</p>
+          <div class="hero__actions">
+            <a href="#servicios" class="btn btn--primary">Conozca nuestros servicios</a>
+            <a href="#nosotros" class="btn btn--ghost">Nuestra historia</a>   <!-- Boton que cambia de color cuando se presiona -->
+          </div>
+        </div>
+        <figure class="hero__media">
+          <img src="assets/TBA25YSINF.png" alt="Placa conmemorativa de los 25 años del Templo Bautista Atenas" width="700" height="900">
+        </figure>
+      </div>
+    </section>
+
+    <!-- ========== SERVICIOS ========== -->
+    <!-- ========== SERVICIOS ========== -->
+<section id="servicios" class="section">
+  <div class="container">
+    <header class="section__head">
+      <p class="eyebrow">Reuniones</p>
+      <h2>Un lugar para crecer juntos</h2>
+      <p>Puedes observar los Horarios de los distintos servicios.</p>
+    </header>
+
+    <div class="cards">
+      <!-- Tarjeta 1 -->
+      <article class="card">
+        <figure class="card__media">
+          <img src="assets/servicioDominical.jpg" alt="Culto dominical" loading="lazy" width="400" height="250">
+        </figure>
+        <div class="card__body">
+          <h3>Culto dominical</h3>
+          <p>Adoración, oración y enseñanza de la Palabra de Dios para toda la familia.</p>
+          <button type="button" class="btn-more" data-modal="modal-culto">Ver más detalles</button>
+        </div>
+      </article>
+
+      <!-- Tarjeta 2 -->
+      <article class="card">
+        <figure class="card__media">
+          <img src="assets/EBiblico.jpg" alt="Estudio bíblico" loading="lazy" width="400" height="250">
+        </figure>
+        <div class="card__body">
+          <h3>Estudio bíblico</h3>
+          <p>Un espacio para profundizar en las Escrituras y crecer en el conocimiento de Dios.</p>
+          <button type="button" class="btn-more" data-modal="modal-estudio">Ver más detalles</button>
+        </div>
+      </article>
+
+      <!-- Tarjeta 3 -->
+      <article class="card">
+        <figure class="card__media">
+          <img src="assets/Jovenes TBA.jpg" alt="Comunión y ministerios" loading="lazy" width="400" height="250">
+        </figure>
+        <div class="card__body">
+          <h3>Comunión y ministerios</h3>
+          <p>Grupos, actividades y servicio comunitario para niños, jóvenes y adultos.</p>
+          <button type="button" class="btn-more" data-modal="modal-comunion">Ver más detalles</button>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ========== MODALES DETALLADOS ========== -->
+<dialog id="modal-culto" class="modal">
+  <div class="modal__content">
+    <button class="modal__close" aria-label="Cerrar">&times;</button>
+    <h3>Culto Dominical</h3>
+    <p><strong>Horarios:</strong> Domingos 9:00 AM a 11:00 AM</p>
+    <p><strong>Lugar:</strong> Templo</p>
+    <p>Un tiempo especial para alabar a Dios juntos y aprender de su Palabra. Contamos con escuelita para los niños y escuela dominical durante el servicio.</p>
+  </div>
+</dialog>
+
+<dialog id="modal-estudio" class="modal">
+  <div class="modal__content">
+    <button class="modal__close" aria-label="Cerrar">&times;</button>
+    <h3>Estudio Bíblico</h3>
+    <p><strong>Horario:</strong> Jueves 7:00 PM</p>
+    <p><strong>Lugar:</strong> Templo</p>
+    <p>Profundizamos en las Escrituras verso a verso y nos unimos en un tiempo de oración por las necesidades de nuestra iglesia y comunidad.</p>
+  </div>
+</dialog>
+
+<dialog id="modal-comunion" class="modal">
+  <div class="modal__content">
+    <button class="modal__close" aria-label="Cerrar">&times;</button>
+    <h3>Comunión y Ministerios</h3>
+    <p><strong>Jóvenes:</strong> Sábados 4:00 PM</p>
+     <p><strong>Lugar Reunión Jóvenes:</strong> Templo </p>
+    <p><strong>Damas / Varones y Matrimonios:</strong> Reuniones mensuales según calendario.</p>
+    <p>Espacios diseñados para construir amistades sólidas, servir a la comunidad y crecer juntos en el ámbito espiritual.</p>
+  </div>
+</dialog>
+
+    <!-- ========== SOBRE NOSOTROS ========== -->
+    <section id="nosotros" class="section section--alt">
+      <div class="container about">
+        <figure class="about__media">
+          <img src="assets/TbaFRONT.jpg" alt="Fachada del Templo Bautista de Atenas" loading="lazy" width="339" height="284">
+        </figure>
+        <div class="about__text">
+          <p class="eyebrow">Sobre nosotros</p>
+          <h2>25 años de fidelidad</h2>
+          <p>Desde 2001, el Templo Bautista Atenas ha sido un hogar para quienes buscan conocer a Dios. Hemos visto su obra en cada etapa: desde nuestra primera capilla hasta el templo actual.</p>
+          <blockquote>“La fidelidad de Dios nos ha perseguido por 25 años y seguirá persiguiéndonos.”</blockquote>
+          <p class="motto">Soli Deo Gloria</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer id="contacto" class="footer">
+    <div class="container footer__grid">
+      <div>
+        <h3>Templo Bautista Atenas</h3>
+        <address>
+          Atenas, Alajuela, Costa Rica<br>
+          <a href="tel:+50660052021">6005 2021</a><br>
+          <a href="mailto:atenastemplobautista@gmail.com">atenastemplobautista@gmail.com</a>
+        </address>
+      </div>
+      <nav aria-label="Menú rápido">
+        <h3>Menú rápido</h3>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#nosotros">Sobre nosotros</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h3>Síganos</h3>
+        <ul>
+          <li><a href="https://www.facebook.com/iglesiabautista.atenas" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://wa.me/50660052021" target="_blank" rel="noopener">WhatsApp</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer__copy">© <span id="year">2026</span> Templo Bautista Atenas. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
