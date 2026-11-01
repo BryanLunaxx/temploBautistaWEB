@@ -8,7 +8,7 @@
   --primary: #1d4e6b;        /* azul del logo */
   --primary-dark: #14384f;
   --secondary: #7a9e9a;      /* verde azulado del banner */
-  --accent: #c9a45c;         /* dorado cálido */
+  --accent: #1d4e6b;         /* dorado cálido */
   
   /* Colores de fondo y texto (Modo Claro) */
   --bg: #faf7f0;             /* crema tipo pergamino */
@@ -33,7 +33,7 @@ body.dark-theme {
   --primary: #5294bb;        /* Azul adaptado para mejor contraste en oscuro */
   --primary-dark: #8cbcd9;
   --secondary: #94c0bc;
-  --accent: #e2c27c;
+  --accent:  #1d4e6b;
   
   --bg: #121212;             /* Fondo oscuro principal */
   --bg-alt: #1a1a1a;         /* Fondo alternativo oscuro */

@@ -94,7 +94,19 @@ const translations = {
     footer_address: "Atenas, Alajuela, Costa Rica",
     footer_quick_menu: "Menú rápido",
     footer_follow: "Síganos",
-    footer_rights: "Todos los derechos reservados."
+    footer_rights: "Todos los derechos reservados.",
+    
+    //misiones
+    missions_eyebrow: "Obra Misionera",
+    missions_title: "Misiones y Alcance Global",
+    missions_desc: "Apoyamos activamente la proclamación del Evangelio tanto internacionalmente como en nuestra nación a través de la oración y el soporte financiero:",
+    mission_1: "Indonesia: Cristopher y Beatriz",
+    mission_2: "🇬🇹 Guatemala: Ángel Pedro",
+    mission_3: "🇨🇷 Misiones Locales: Upala, Sarapiquí, Centro Prenatal y Hogar de Vida para la Niñez.",
+    missions_quote: '"Oremos juntos por el avance del Reino de Dios."'
+
+
+
   },
   en: {
     nav_home: "Home",
@@ -137,7 +149,17 @@ const translations = {
     footer_address: "Atenas, Alajuela, Costa Rica",
     footer_quick_menu: "Quick menu",
     footer_follow: "Follow us",
-    footer_rights: "All rights reserved."
+    footer_rights: "All rights reserved.",
+
+    // Missions
+    missions_eyebrow: "Missionary Work",
+    missions_title: "Missions & Global Outreach",
+    missions_desc: "We actively support the proclamation of the Gospel both internationally and locally through prayer and financial support:",
+    mission_1: "Indonesia: Cristopher and Beatriz",
+    mission_2: "🇬🇹 Guatemala: Ángel Pedro",
+    mission_3: "🇨🇷 Local Missions: Upala, Sarapiquí, Prenatal Center, and Children's Home of Life.",
+    missions_quote: '"Let us pray together for the advancement of God\'s Kingdom."'
+
   }
 };
 
