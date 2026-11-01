@@ -13,31 +13,41 @@
 <body>
 
   <!-- ========== HEADER / NAVBAR ========== -->
+  <!-- ========== HEADER / NAVBAR ========== -->
   <header class="header">
     <div class="container header__inner">
-       <!-- Botón Modo Oscuro/Claro -->
-      <button id="btn-theme" class="control-btn" aria-label="Cambiar tema">🌙</button>
+      <!-- Marca / Logo -->
       <a href="#inicio" class="brand" aria-label="Templo Bautista Atenas, inicio">
         <img src="assets/TBA Logo.jpg" alt="" width="44" height="44">
         <span>Templo Bautista <strong>Atenas</strong></span>
       </a>
 
+      <!-- Botones de Control (Tema e Idioma agrupados) -->
+      <div class="header__actions">
+        <button id="btn-theme" class="control-btn" aria-label="Cambiar tema">🌙</button>
+        <button id="btn-lang" class="control-btn" aria-label="Cambiar idioma">EN</button>
+      </div>
+
+      <!-- Botón hamburguesa móvil -->
       <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
         <span></span><span></span><span></span>
       </button>
 
+      <!-- Navegación principal -->
       <nav id="menu" class="nav" aria-label="Principal">
         <ul class="nav__list">
-          <li><a href="#inicio">Inicio</a></li>
-          <li><a href="#servicios">Servicios</a></li>
-          <li><a href="#nosotros">Sobre nosotros</a></li>
+          <li><a href="#inicio" data-i18n="nav_home">Inicio</a></li>
+          <li><a href="#servicios" data-i18n="nav_services">Servicios</a></li>
+          <li><a href="#nosotros" data-i18n="nav_about">Sobre nosotros</a></li>
         </ul>
-        <a href="#contacto" class="btn btn--primary btn--sm">Contáctenos</a>
+        <a href="#contacto" class="btn btn--primary btn--sm" data-i18n="nav_contact">Contáctenos</a>
       </nav>
     </div>
   </header>
 
   <main>
+
+
     <!-- ========== HERO ========== -->
     <section id="inicio" class="hero">
       <div class="container hero__inner">
